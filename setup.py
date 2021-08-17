@@ -7,7 +7,7 @@ def readme():
 
 
 setup(
-    name="Bangla-stemmer_modified",
+    name="Bangla-stemmer",
     version="1.0",
     description="A Python package to get stem of any inflected Bangla words.",
     long_description=readme(),
