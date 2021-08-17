@@ -23,7 +23,7 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
     ],
-    packages=["bangla_stemmer"],
+    packages=["bangla_stemmer","bangla_stemmer.stemmer", "bangla_stemmer.resources"],
     include_package_data=True,
     keywords=('bengali', 'bangla', 'stemmer', 'bengali stemmer', 'bangla stemmer')
 )
