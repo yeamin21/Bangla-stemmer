@@ -8,6 +8,8 @@ Bengali is one of the most morphologically rich languages and it has lots of inf
 
 Therefore our main focus was to program a light-weight library to determine a identical word for same type of inflected word as stem to run on any model.
 
+## This version of Bengali Stemmer does not print steps like the original does
+
 ## Installation
 >### Run the following  to install:
 + using pip
