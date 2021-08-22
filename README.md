@@ -14,14 +14,9 @@ Therefore our main focus was to program a light-weight library to determine a id
 >### Run the following  to install:
 + using pip
 ```
-pip install bangla_stemmer
+pip install git+https://github.com/yeamin21/Bangla-stemmer.git
 ```
-+ using git
-```
-git clone https://github.com/Fatick-DevStudio/Bangla-stemmer.git
-cd Bangla-stemmer
-python setup.py install
-```
+
 
 ## Usages
 
@@ -31,8 +26,9 @@ python setup.py install
 >from bangla_stemmer.stemmer import stemmer
 >wordlist = ['কবিরগুলিকে', 'আমাকে', 'নামাবার']
 >stmr = stemmer.BanglaStemmer()
->stm = stmr.stem(word)
->print(stm)
+>for word in words:
+>    stm = stmr.stem(word)
+>    print(stm)
 >```
 >`output:  ['কবির', 'আমা', 'নামা']`
 
